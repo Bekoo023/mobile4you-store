@@ -9,8 +9,11 @@
 
 <body>
     <?php include 'header.php';  ?>
-    
     <?php include 'footer.php';  ?>
+
+    <div class="loginachtergrond">
+
+    </div>
 </body>
 
 </html>
