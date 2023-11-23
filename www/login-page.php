@@ -12,7 +12,20 @@
     <?php include 'footer.php';  ?>
 
     <div class="loginachtergrond">
-
+        <p class="hoofdtxtlogin">Login:</p>
+        <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <button type="submit" name="submit" class="submitlogin">Login</button><br>
+        <div class="registreerlogin">
+            <label class="txtregistreerlogin">Nog geen account?</label><br>
+            <a href="registreer.php"><button class="registreerknop">Registreer hier!</button></a>
+        </div>
     </div>
 </body>
 

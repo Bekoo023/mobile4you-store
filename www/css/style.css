@@ -89,3 +89,61 @@ body{
     left: 480px;
     border: 5px solid #000000;
 }
+
+.hoofdtxtlogin{
+    font-size: 26px;
+    align-items: center;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 60px;
+    color: white;
+}
+
+.form-group{
+    color: white;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+
+.form-group input{
+    border-radius: 20px;
+    width: 140px;
+    height: 25px;
+    margin-left: 10px;
+    border: 2px solid black;
+}
+
+.submitlogin{
+    width: 80px;
+    height: 30px;
+    margin-left: 120px;
+    margin-top: 40px;
+    border-radius: 20px;
+    background-color: #1f4a5f;
+    color: white;
+    border: 2px solid black;
+    font-size: 14px;
+    margin-bottom: 60px;
+}
+
+.submitlogin:hover{
+    background-color: #8eb2ee;
+    color: #000000;
+}
+
+.registreerknop{
+    width: 140px;
+    height: 30px;
+    margin-left: 120px;
+    border-radius: 20px;
+    background-color: #1f4a5f;
+    color: white;
+    border: 2px solid black;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.txtregistreerlogin{
+    color: white;
+    padding-left: 120px;
+}
