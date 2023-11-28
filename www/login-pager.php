@@ -21,7 +21,7 @@
                 <label for="password">Password:</label>
                 <input type="password" name="password" id="password">
             </div>
-            <p class="wrong">Onjuist wachtwoord of email!</p>
+            <p class="wrong">Onjuist email of wachtwoord!</p>
             <button type="submit" name="submit" class="submitlogin">Login</button><br>
         </form>
         <div class="registreerlogin">

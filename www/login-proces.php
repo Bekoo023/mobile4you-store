@@ -27,5 +27,8 @@ if (isset($_POST['submit'])) {
                 }
             }
         }
+        if (empty($_POST['email']) || empty($_POST['password'])) {
+            header("location: login-pager.php");
+        }
     }
 }
