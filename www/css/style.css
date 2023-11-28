@@ -67,7 +67,7 @@ body{
 }
 
 .onderfooter{
-    position: absolute;
+    position: sticky;
     bottom: 0;
     height: 50px;
     display: flex;
@@ -84,11 +84,10 @@ body{
 .loginachtergrond{
     height: 440px;
     width: 400px;
+    margin-left: 478px;
+    margin-top: 20px;
     border-radius: 20px;
     background-color: #08202c;
-    position: absolute;
-    top: 140px;
-    left: 480px;
     border: 5px solid #000000;
 }
 
@@ -158,3 +157,16 @@ body{
     color: #000000;
     cursor: pointer;
 }
+
+.registreer{
+    background-color: #08202c;
+    color: white;
+    width: 500px;
+    height: 560px;
+    margin-left: 420px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 5px solid black;
+}
+
+.go

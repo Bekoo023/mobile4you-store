@@ -9,7 +9,6 @@
 
 <body>
     <?php include 'header.php';  ?>
-    <?php include 'footer.php';  ?>
 
     <div class="loginachtergrond">
         <p class="hoofdtxtlogin">Login:</p>
@@ -23,12 +22,13 @@
                 <input type="password" name="password" id="password">
             </div>
             <button type="submit" name="submit" class="submitlogin">Login</button><br>
-            </form>
-            <div class="registreerlogin">
-                <label class="txtregistreerlogin">Nog geen account?</label><br>
-                <a href="registreer.php"><button class="registreerknop">Registreer hier!</button></a>
-            </div>
+        </form>
+        <div class="registreerlogin">
+            <label class="txtregistreerlogin">Nog geen account?</label><br>
+            <a href="registreer.php"><button class="registreerknop">Registreer hier!</button></a>
+        </div>
     </div>
+    <?php include 'footer.php';  ?>
 </body>
 
 </html>
