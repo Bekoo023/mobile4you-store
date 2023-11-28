@@ -23,7 +23,7 @@ if (isset($_POST['submit'])) {
 
                     header("location: index.php");
                 } else {
-                    echo "wachtwoord onjuist";
+                    header("location: login-pager.php");
                 }
             }
         }
